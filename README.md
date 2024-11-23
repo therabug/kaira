@@ -3,8 +3,6 @@
 *Kaira is All Radically Inadequate*  
 A simple yet fun game engine! This project was created for learning, experimenting, and having some fun. We fully embrace being "radically inadequate" and make no excuses for it! 😄
 
----
-
 ## 🚀 Features
 
 kairadot currently includes the following essential components for a basic game engine:  
@@ -12,16 +10,12 @@ kairadot currently includes the following essential components for a basic game 
 - **State Machine:** A simple state management system for controlling game states.  
 - **Input Manager:** A lightweight input handling system.  
 
----
-
 ## 🛠️ Built With
 
 - [SFML](https://www.sfml-dev.org/)  
   A simple and fast multimedia library for 2D graphics, audio, and input handling.  
 - C++  
   A powerful, performance-oriented language (with an occasional need for extra coffee ☕).  
-
----
 
 ## 🎯 Goals
 
@@ -31,8 +25,6 @@ Potential future improvements:
 - A simple physics engine.  
 - Animation support.  
 - A more flexible entity management system.  
-
----
 
 ## 📦 Getting Started
 
@@ -57,13 +49,9 @@ make
 ./kairadot
 ```
 
----
-
 ## 🤝 Contributing
 
 This project is completely open source! If you’d like to add features, fix issues, or just have fun experimenting, feel free to submit a pull request. It’s a lighthearted project, so all constructive comments and ideas are welcome. 😊
-
----
 
 ## 📄 License
 
