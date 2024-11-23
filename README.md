@@ -36,7 +36,7 @@ cd kairadot
 ```
 
 ### Dependencies
-- SFML: Follow the [official SFML setup guide](https://www.sfml-dev.org/tutorials/2.5/start-cmake.php) for installation.
+- SFML: Follow the [official SFML setup guide](https://www.sfml-dev.org/tutorials/2.6/start-cmake.php) for installation.
 
 ### Build & Run
 Make sure you have a C++ compiler and SFML installed. Then, build and run the project:
