@@ -1,6 +1,6 @@
 ﻿# kaira.
 
-*Kaira is All Radically Inadequate*  
+*Kaira As Is Really In-Adequate*  
 A simple yet fun game engine! This project was created for learning, experimenting, and having some fun. We fully embrace being "radically inadequate" and make no excuses for it! 😄
 
 ## 🚀 Features
