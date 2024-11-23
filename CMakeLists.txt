@@ -4,6 +4,7 @@ project(CMakeSFMLProject LANGUAGES CXX)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 option(BUILD_SHARED_LIBS "Build shared libraries" OFF)
 
+# SFML'i FetchContent ile getiriyoruz
 include(FetchContent)
 FetchContent_Declare(SFML
     GIT_REPOSITORY https://github.com/SFML/SFML.git
@@ -13,10 +14,22 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
-add_executable(main src/main.cpp)
+# Proje içindeki tüm .cpp dosyalarýný otomatik olarak topla
+file(GLOB_RECURSE PROJECT_SOURCES CONFIGURE_DEPENDS
+    src/*.cpp  # src klasöründeki tüm .cpp dosyalarýný dahil eder
+)
+
+# Ana executable oluþtur
+add_executable(main ${PROJECT_SOURCES})
+
+# target_include_directories komutunu burada çaðýr
+target_include_directories(main PRIVATE include)
+
+# SFML'i hedefe baðla
 target_link_libraries(main PRIVATE sfml-graphics)
 target_compile_features(main PRIVATE cxx_std_17)
 
+# Windows için OpenAL DLL'sini kopyalama iþlemi
 if(WIN32)
     add_custom_command(
         TARGET main
