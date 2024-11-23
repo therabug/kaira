@@ -31,7 +31,7 @@ Potential future improvements:
 Clone the repository to get started:
 
 ```bash
-git clone https://github.com/yourusername/kairadot.git
+git clone https://github.com/therabug/kairadot.git
 cd kairadot
 ```
 
@@ -46,7 +46,6 @@ mkdir build
 cd build
 cmake ..
 make
-./kairadot
 ```
 
 ## 🤝 Contributing
