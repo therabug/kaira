@@ -1,7 +1,7 @@
 ﻿# kaira.
 
-*Kaira As Is Really in Adequate*  
-A simple yet fun game engine! This project was created for learning, experimenting, and having some fun. We fully embrace being "radically inadequate" and make no excuses for it! 😄
+*Kaira Actually Isn’t Really Adequate*  
+A simple yet fun game engine! This project was created for learning, experimenting, and having some fun. We fully embrace being "Isn't Really Adequate" and make no excuses for it! 😄
 
 ## 🚀 Features
 
